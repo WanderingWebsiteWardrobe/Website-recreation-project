@@ -69,11 +69,34 @@ body {
 main {
   padding: 0% 8%;
 }
+#attention-grabber {
+  margin-top: 0%;
+}
+#attention-grabber h2 {
+  font-family: Candal;
+  font-size: 5em;
+  font-weight: 900;
+  line-height: 100%;
+  color: #052263;
+  text-align: center;
+  margin-top: 0%;
+}
+#attention-grabber > .img-half {
+  display: flex;
+  align-items: end;
+  /* width: 50%; */
+}
+#attention-grabber > .img-half > img {
+  /* max-width: 50%; */
+  height: 90%;
+  width: auto;
+}
 .half-n-half {
   display: flex;
   box-sizing: border-box;
   width: 100%;
   height: 80vh;
+  margin: 8% 0px;
 }
 .text-half {
   width: 50%;
@@ -84,22 +107,29 @@ main {
 }
 .text-half h2 {
   font-family: Candal;
-  font-size: 5em;
+  font-variant: small-caps;
+  font-size: 3em;
   font-weight: 900;
   line-height: 100%;
   color: #052263;
-  text-align: center;
+  text-align: left;
   margin-top: 0%;
 }
+.skinny-text-box {
+  width: 50%;
+}
 .img-half {
+  /* max-width: 50%; */
   width: 50%;
   display: flex;
   justify-content: right;
-  align-items: end;
+  align-items: center;
 }
-.img-half > img {
-  height: 80%;
+.img-half img {
+  height: auto;
   float: right;
+  width: 100%;
+  max-width: 100%;
 }
 
 #icecream-selection {
@@ -187,4 +217,20 @@ h3 > img {
 #icecream-pints {
   background-color: #f2e4b0;
   border-bottom-right-radius: 20px;
+}
+
+
+#pairings {
+  background-color: #e2dad1;
+  border-radius: 20px;
+}
+#pairings a {
+  text-decoration: none;
+  background-color: #052263;
+  color: #f5f5dc;
+  font-family: Candal;
+  font-size: 100%;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 50px;
 }
