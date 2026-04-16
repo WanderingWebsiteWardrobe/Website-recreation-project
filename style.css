@@ -60,7 +60,8 @@ body {
   padding: 5px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
+  font-size: 55%;
+  font-weight: 100;
 }
 .icon-circle {
   border-radius: 50%;
@@ -117,20 +118,23 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 8% 25%;
+  padding: 6% 25%;
   font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 150%;
   font-weight: 100;
   text-align: center;
   border-radius: 20px 20px 0px 0px;
 }
-.description-banner span {
+.description-banner h2 {
   font-variant: small-caps;
   font-size: 100%;
   font-weight: bold;
+  margin: 0px;
 }
-.description-banner h2 {
+.description-banner p {
   margin-top: 10px;
+  font-weight: bold;
+  font-size: 160%;
 }
 .description-banner a {
   text-decoration: none;
