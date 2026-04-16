@@ -7,7 +7,7 @@ body {
   background-color: #f5f5dc;
   margin: 0px;
 }
-.top-nav {
+#top-nav {
   background-color: #052263;
   width: 100%;
   box-sizing: border-box;
@@ -23,36 +23,32 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-/* .top-nav-container {
-  border: 2px solid black;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} */
-.links {
+.nav-links {
   padding: 25px 0px;
   display: flex;
   justify-content: center;
-
   width: 100%;
+  list-style: none;
 }
-.links a {
+.nav-links ul {
+  display: flex;
+  justify-content: center;
+}
+.nav-links a {
   color: beige;
   text-decoration: none;
   padding: 6px 25px;
 }
-.links a:hover {
+.nav-links a:hover {
   background-color: #243a71;
   border-radius: 20px;
 }
-.search-icon {
+#search-icon {
   position: absolute;
   right: 5%;
   cursor: pointer;
 }
-.bottom-nav {
+#bottom-nav {
   background-color: white;
   color: #052263;
   box-sizing: border-box;
@@ -78,8 +74,6 @@ main {
   box-sizing: border-box;
   width: 100%;
   height: 80vh;
-  /* margin-top: 0px;
-  margin: 5% auto; */
 }
 .text-half {
   width: 50%;
@@ -108,10 +102,10 @@ main {
   float: right;
 }
 
-.icecream-selection {
+#icecream-selection {
   margin: 5% 0%;
 }
-.description-banner {
+#icecream-description {
   background-color: #052263;
   color: #f5f5dc;
   display: flex;
@@ -125,18 +119,18 @@ main {
   text-align: center;
   border-radius: 20px 20px 0px 0px;
 }
-.description-banner h2 {
+#icecream-description h2 {
   font-variant: small-caps;
   font-size: 100%;
   font-weight: bold;
   margin: 0px;
 }
-.description-banner p {
+#icecream-description p {
   margin-top: 10px;
   font-weight: bold;
   font-size: 160%;
 }
-.description-banner a {
+#icecream-description a {
   text-decoration: none;
   background-color: #f5f5dc;
   color: #052263;
@@ -146,15 +140,15 @@ main {
   padding: 12px 30px;
   border-radius: 50px;
 }
-.icecream-options {
+#icecream-categories {
   display: flex;
   flex-wrap: wrap;
 }
-.icecream-options a {
+#icecream-categories a {
   width: 50%;
   text-decoration: none;
 }
-.icecream-square {
+.icecream-type {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -163,7 +157,7 @@ main {
   width: 50%;
   padding: 60px;
 }
-.icecream-square h3 {
+.icecream-type h3 {
   color: #052263;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 200%;
@@ -177,20 +171,20 @@ h3 > img {
   padding: 4px;
   margin: 0px 2px;
 }
-#icecream-one {
+#family-size {
   background-color: lightpink;
 }
 #rotate {
   rotate: 90deg;
 }
-#icecream-two {
+#chocolate-collection {
   background-color: #f5f5dc;
 }
-#icecream-three {
+#icecream-bars {
   background-color: #c7ddc8;
   border-bottom-left-radius: 20px;
 }
-#icecream-four {
+#icecream-pints {
   background-color: #f2e4b0;
   border-bottom-right-radius: 20px;
 }
