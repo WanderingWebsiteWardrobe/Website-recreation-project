@@ -67,7 +67,7 @@ body {
 
 
 main {
-  padding: 0% 8%;
+  /* padding: 0% 8%; */
 }
 #attention-grabber {
   margin-top: 0%;
@@ -94,9 +94,12 @@ main {
 .half-n-half {
   display: flex;
   box-sizing: border-box;
-  width: 100%;
+  width: 88%;
   height: 80vh;
-  margin: 8% 0px;
+  /* margin: 8% 0px; */
+  border-radius: 20px;
+
+  margin: 8% auto;
 }
 .text-half {
   width: 50%;
@@ -133,7 +136,8 @@ main {
 }
 
 #icecream-selection {
-  margin: 5% 0%;
+  margin: 5% auto;
+  width: 88%;
 }
 #icecream-description {
   background-color: #052263;
@@ -222,15 +226,339 @@ h3 > img {
 
 #pairings {
   background-color: #e2dad1;
+  color: #052263;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 140%;
+  font-weight: 600;
   border-radius: 20px;
+}
+#pairings span {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 70%;
+  font-weight: bold;
+}
+#pairings h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+#pairings p {
+  margin-top: 0px;
+  margin: 40px 0px;
 }
 #pairings a {
   text-decoration: none;
+  text-transform: uppercase;
   background-color: #052263;
   color: #f5f5dc;
   font-family: Candal;
-  font-size: 100%;
+  font-size: 90%;
   font-weight: bold;
   padding: 12px 30px;
+  margin: 100px 0px;
   border-radius: 50px;
+}
+
+#new-flavors {
+  background-image: linear-gradient(lightpink 0%, lightpink 66%, pink 66%, pink 100%);
+  background-color: #e2dad1;
+  color: #052263;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 140%;
+  font-weight: 600;
+  border-radius: 20px;
+}
+#new-flavors span {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 70%;
+  font-weight: bold;
+}
+#new-flavors h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+}
+#new-flavors a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #052263;
+  color: #f5f5dc;
+  font-family: Candal;
+  font-size: 90%;
+  font-weight: bold;
+  padding: 12px 30px;
+  margin: 100px 0px;
+  border-radius: 50px;
+}
+
+.centered {
+  text-align: center;
+}
+
+#recipes {
+  width: 88%;
+  margin: 8% auto;
+}
+#recipes > h2 {
+  color: #052263;
+  font-family: Candal;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  line-height: 85%;
+  text-align: center;
+  font-weight: 600;
+  margin: 8%;
+}
+#img-row {
+  display: flex;
+  width: 100%;
+}
+#img-row > section {
+  /* flex: 33% 33% 33%; */
+  width: 33%;
+}
+#img-row img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 20px;
+}
+#img-row a {
+  text-decoration: none;
+}
+#img-row span {
+  color: #052263;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: small;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+#img-row p {
+  color: #052263;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+  margin: 2px;
+}
+#img-row .recipe-text {
+  margin: 15px;
+}
+
+#story {
+  background-color: white;
+}
+#story .img-half {
+  background-color: #f6eccb;
+  border-radius: 0px 20px 20px 0px;
+}
+#story h2 {
+  text-align: center;
+}
+#story p {
+  color: #052263;
+  margin-top: 0px;
+  margin: 40px 0px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 120%;
+  font-weight: 600;
+}
+#story a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #052263;
+  color: #f5f5dc;
+  font-family: Candal;
+  font-size: 90%;
+  font-weight: bold;
+  padding: 12px 30px;
+  margin: 100px 0px;
+  border-radius: 50px;
+}
+
+#locations {
+  background-color: #f6eccb;
+  border-radius: 0px;
+  width: 100%;
+  margin-bottom: 0%;
+}
+#triple-img img {
+  width: 33%;
+}
+#locations h2 {
+  text-align: center;
+  font-size: 4rem;
+  line-height: 85%;
+  text-transform: uppercase;
+}
+#locations p {
+  color: #052263;
+  margin-top: 0px;
+  margin: 40px 0px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 120%;
+  font-weight: 600;
+}
+#locations a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #052263;
+  color: #f5f5dc;
+  font-family: Candal;
+  font-size: 90%;
+  font-weight: bold;
+  padding: 12px 30px;
+  margin: 100px 0px;
+  border-radius: 50px;
+}
+
+/* Footer pt1 */
+footer {
+  background-color: #052263;
+  color: #f5f5dc;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 6%;
+  padding-bottom: 0%;
+}
+#subscribe {
+  display: flex;
+  width: 100%;
+  padding: 2% 0%;
+}
+#subscribe .left {
+  width: 50%;
+}
+#subscribe .right {
+  width: 50%;
+  float: right;
+}
+#subscribe h2 {
+  font-family: Candal;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  line-height: 85%;
+  font-weight: 600;
+}
+#subscribe p {
+  margin-top: 0px;
+  margin: 40px 0px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 150%;
+  font-weight: 600;
+}
+#subscribe .right {
+  margin: 3%;
+}
+#subscribe input {
+  background-color: #f5f5dc;
+  color: #052263;
+  width: 80%;
+  /* margin: 5%; */
+  padding: 30px;
+  border-radius: 50px;
+}
+#subscribe input::placeholder {
+  color: #052263;
+  font-family: sans-serif;
+  font-size: 130%;
+  font-weight: bold;
+}
+#subscribe .smalltext {
+  color: lightslategrey;
+  font-size: 80%;
+  font-weight: normal;
+  margin: 10px;
+}
+.smalltext a {
+  color: inherit;
+}
+#icon-row img {
+  background-color: #243a71;
+  border-radius: 50px;
+  padding: 12px;
+  margin: 2px;
+}
+
+/* Footer pt2 */
+#footer-logo-container {
+  height: 50%;
+}
+#footer-logo-container img {
+  width: 50%;
+  /* height: 100%; */
+  object-fit: contain;
+}
+
+#footer-links {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+#extra-nav-links {
+  display: flex;
+  width: 100%;
+  padding: 5% 0%;
+  border-top: .5px solid lightslategrey;
+  border-bottom: .5px solid lightslategrey;
+}
+#extra-nav-links > * {
+  width: 50%;
+}
+
+.footer-link-column {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+.footer-link-column p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 90%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footer-link-column a {
+  font-family: sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  padding: 6px 0px;
+}
+
+/* Footer pt3 */
+#copyright {
+  display: flex;
+  padding: 4% 0%;
+}
+#copyright > * {
+  width: 50%;
+}
+#copyright .left {
+  display: flex;
+  align-items: center;
+}
+#copyright .left p {
+  display: flex;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-variant: small-caps;
+  font-size: 120%;
+  font-weight: 600;
+  margin: 20px;
+}
+#copyright .right p {
+  font-family: sans-serif;
+  font-size: 80%;
+  font-weight: 600;
+  line-height: 150%;
+}
+#copyright a {
+  text-decoration: underline;
+}
+#copyright #footnote {
+  font-size: x-small;
+  line-height: 150%;
 }
